@@ -10,6 +10,10 @@
 ## installation
 
 1.clone this repo </br>
-2.running `composer install`, `php artisan db:seed migrate`
-3.
+2.edit your email destination in the seeder file, after that </br>
+3.running `composer install`, `php artisan db:seed migrate`, `php artisan queue:table`
 
+## running
+
+1.running laravel server `php artisan serve` </br>
+2.running queue `php artisan queue:listen`
