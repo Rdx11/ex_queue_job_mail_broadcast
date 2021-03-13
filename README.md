@@ -9,7 +9,7 @@
 
 ## installation
 
-1.clone this repo
+1.clone this repo </br>
 2.running `composer install`, `php artisan db:seed migrate`
 3.
 
